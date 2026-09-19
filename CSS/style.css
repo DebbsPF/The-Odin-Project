@@ -1,0 +1,222 @@
+* {
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    background-color: #1f2937;
+    color: white;
+    padding-bottom: 100px;
+}
+
+.header-container {
+    width: 770px;
+    margin: auto;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding-top: 16px;
+}
+
+.logo {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+nav {
+    display: flex;
+    gap: 28px;
+}
+
+nav a {
+    color: #e5e7eb;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+
+.hero {
+    width: 770px;
+    margin: 90px auto 0;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-text {
+    width: 370px;
+}
+
+.hero-text h1 {
+    font-size: 38px;
+    line-height: 1.05;
+    margin: 0 0 8px;
+
+    color: #f9faf8;
+}
+
+.hero-text p {
+    color: #d1d5db;
+    font-size: 14px;
+    line-height: 1.2;
+
+    margin: 0 0 12px;
+}
+
+button {
+    background-color: #3882f6;
+    color: white;
+
+    border: none;
+    border-radius: 6px;
+
+    padding: 7px 25px;
+
+    font-weight: bold;
+    font-size: 14px;
+
+    cursor: pointer;
+}
+
+.hero-image {
+    width: 365px;
+    height: 170px;
+
+    background-color: #6b7280;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: white;
+    font-size: 14px;
+}
+
+.information {
+    padding: 36px 0 85px;
+    text-align: center;
+}
+
+.information h2 {
+    color: #1f2937;
+    font-size: 27px;
+
+    margin: 0 0 35px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+}
+
+.card {
+    width: 130px;
+}
+
+.box {
+    width: 130px;
+    height: 130px;
+
+    border: 3px solid #3882f6;
+    border-radius: 11px;
+}
+
+.card p {
+    margin-top: 7px;
+
+    color: #4b5563;
+    font-size: 14px;
+    line-height: 1.1;
+}
+
+.quote-section {
+    background-color: #e5e7eb;
+
+    padding: 95px 0 75px;
+}
+
+.quote-container {
+    width: 600px;
+    margin: auto;
+}
+
+.quote {
+    margin: 0;
+
+    font-size: 27px;
+    font-style: italic;
+    font-weight: 400;
+
+    line-height: 1.15;
+
+    color: #273447;
+}
+
+.author {
+    text-align: right;
+
+    font-size: 16px;
+    font-weight: bold;
+
+    color: #1f2937;
+
+    margin: 5px 0 0;
+}
+
+.cta-section {
+    padding: 75px 0;
+}
+
+.cta {
+    width: 770px;
+    margin: auto;
+
+    background-color: #3882f6;
+
+    border-radius: 5px;
+
+    padding: 38px 90px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    color: white;
+}
+
+.cta h2 {
+    font-size: 17px;
+    margin: 0 0 2px;
+}
+
+.cta p {
+    font-size: 13px;
+    margin: 0;
+}
+
+.cta button {
+    border: 2px solid white;
+    border-radius: 6px;
+
+    padding: 5px 25px;
+}
+
+footer {
+    background-color: #1f2937;
+
+    color: #e5e7eb;
+
+    text-align: center;
+
+    padding: 30px 0;
+
+    font-size: 13px;
+}
